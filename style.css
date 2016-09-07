@@ -1,8 +1,11 @@
 
 #background_image{
-	background-image: url("bild_intelligens.jpg");
+	background-image: url(logga.jpg);
+	size: ;
+	height:200px;
 	width:100%;
-	height:300px;}
+}
+
 .container{
 	margin: auto;
 	position: absolute;
@@ -11,4 +14,40 @@
 	bottom: 0;
 	right: 0;
 	display: table;
+}
+
+a.list-group-item:hover{color:#0092D2;
+	background-color: #CCCCCC;
+
+}
+
+h1{
+	font-family: Josefin+Sans, light;
+	font-size:30px;
+	color: #0092D2;
+}
+
+p{
+	font-family: Lato;
+	font-size: 20px;
+}
+
+.list-group{
+	font-family:Lato
+	font-size: 20px
+	color:#CCCCCC;
+}
+
+#copy{
+	font-size: 12px;
+}
+
+.btn.btn-success{
+	background-color: #0092D2;
+	font-color: #CCCCCC;
+}
+
+.btn.btn-success:active{
+	background-color: #CCCCCC;
+
 }
